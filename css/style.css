@@ -1,0 +1,549 @@
+/*ELEMENTOS*/
+*{
+    padding:0;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+h1{
+    font-size: 2em;
+}
+
+ul{
+    list-style: none;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.right{
+    text-align: right;
+}
+
+.titulosRecentes{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.ulListaLateral{
+    width:100%;
+    margin-top:10px;
+}
+
+.ulListaLateral li{
+    width:100%;
+    text-align: left;
+    border-bottom: 1px solid #CCC;
+}
+
+
+.ulListaLateral li:hover{
+    background-color: #eee;
+}
+
+.ulListaLateral img{
+    max-width:50px;
+    width:100%;
+    padding:10px;
+    vertical-align: middle;
+}
+
+.ulListaLateral a{
+    color: #0288D1;
+}
+
+.borderTop{
+    border-top: 1px solid #CCC;
+}
+
+.line{
+    margin:10px;
+    border-bottom: 1px solid #CCC;
+}
+
+.linha{
+    margin-top:10px;    
+}
+
+.right{
+    text-align: right;
+}
+
+.link a{
+    color: #0288D1;
+}
+
+.coluna{
+    margin-top:10px;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.spSucesso{
+    color: #0f8746;
+    background-color: #ccdec8;
+    border: 1px solid #0f8746;
+    width:100%;
+    padding:10px;
+    margin: 5px;
+    border-radius:5px;
+}
+
+.bgcinza{
+    background-color: #EEE;
+    border:1px solid #CCC;
+}
+
+.padding{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.spErro{
+    color: #7e5656;
+    background-color: #f2dddd;
+    border: 1px solid #7e5656;
+    width:100%;
+    padding:10px;
+    margin: 5px;
+    border-radius:5px;
+}
+
+.dvComment{
+    background-color: #e3e3e3;
+    border-bottom:3px solid #5b6776;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.btnacao{
+    text-decoration: none;
+}
+
+.btnacao img{
+    padding:5px;
+    max-width:24px;
+    vertical-align: middle;
+}
+
+.blue{
+    padding:7px;
+    background-color:#e4f0f7; 
+    border:1px solid #0288D1;
+}
+
+.blue:hover{
+    color:#FFF;
+    background-color:#0288D1; 
+    border:1px solid #0288D1;
+}
+
+.red-color{
+    color: red;
+}
+
+.red{
+    padding:7px;
+    background-color:#f7e4e4; 
+    border:1px solid #a42727;
+}
+
+.red:hover{
+    color:#FFF;
+    background-color:#d59898; 
+    border:1px solid #a42727;
+}
+
+.comentarioAnunciante{
+    background-color: #5b6776;
+    color: #FFF;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.menuPainel div{
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.menuPainel div a{
+    text-decoration: none;
+    color: #0288D1;
+}
+
+.menuPainel div a:hover{
+    text-decoration: underline;
+}
+
+.table{
+    width:100%;
+    padding:5px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.table td, .table th{
+    padding:5px;
+}
+
+.table-striped tbody tr:nth-child(odd){
+    background-color: #EEE;
+}
+
+.table-hover tbody tr:hover{
+    background-color: #bde5ff;
+    color: #111;
+}
+
+.button {
+    background-color: #3399ff;
+    border: none;
+    color: white;
+    margin:5px;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:1em;
+    width:100%;
+}
+
+.button:hover {
+    background-color: #FFF;
+    color:#0288D1;
+}
+
+/*menuLateralMobile*/
+
+#menuLateralMobile{
+    background-color: #FFF;
+    width:100%;
+}
+
+#menuLateralMobile ul li{
+    background-color: #0288D1;
+    border-top: 1px solid #eee;
+    padding:5px;
+}
+
+#menuLateralMobile ul li:hover, #menuLateralMobile ul li:hover > a{
+    background-color: #eee;
+    color: #111 !important;
+}
+
+
+#menuLateralMobile ul li a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1.125em;
+    padding: 5px;
+}
+
+#menuMobile{
+    vertical-align: middle;
+    max-width:64px !important;
+    width:100%;
+    border: none;
+    padding: 5px;
+    box-sizing: content-box
+}
+
+#menuMobile:active{
+    box-shadow: 0 0  10px #111;
+    border-radius: 50%
+}
+
+/*dvTopo*/
+#dvTopo{
+    text-align: left;
+    background-color: #B3E5FC;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+#dvTopo img{
+    width:100%;
+    max-width: 226px;
+}
+
+/*#dvMenu*/
+#dvMenuTopo{
+    background-color: #0288D1;
+    border-bottom: 5px solid #BDBDBD;
+}
+
+#dvMenuTopo ul {
+    list-style: none;
+    padding:5px;
+}
+
+#dvMenuTopo ul li{
+    display: inline;
+    padding:5px;
+}
+
+#dvMenuTopo ul li:hover{
+    background-color: #03A9F4;
+}
+
+#dvMenuTopo ul li a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1.125em;
+    padding:5px;
+}
+
+/**/
+#dvConteudo{
+    min-height: 100vh;
+}
+
+/*dvEsquerda*/
+#dvEsquerda{
+    border:1px solid #BDBDBD;
+}
+
+#boxBusca{
+    margin-top: 10px;
+    padding:10px;
+    box-sizing: border-box;
+    background-color: #eeebeb;
+    border:1px solid #BDBDBD;    
+}
+
+#txtBusca{
+    width:100%;
+    max-width: 250px;
+    padding: 7px;
+    margin-bottom: 10px;
+    outline: none;
+    border:1px solid #3399ff;
+}
+
+#txtBusca:active{
+    box-shadow: 0 0 5px #03A9F4;
+}
+
+#slBusca{
+    width:100%;
+    max-width: 200px;
+    padding: 6px;
+    margin-bottom: 10px;
+    outline: none;
+    border:1px solid #3399ff;
+}
+
+#btnBuscar{
+    width:100%;
+    max-width: 200px;
+    padding: 7px;
+    outline: none;
+    border:1px solid #3399ff;
+    cursor: pointer;
+    background-color: #f6f7f9;
+}
+
+/*dvDireita*/
+#dvDireita{
+
+}
+
+#iconesSociais a img{
+    width:100%;
+    max-width: 48px;
+    padding:0.3em;
+}
+
+.boxDireita{
+    border:1px solid #BDBDBD;
+    padding:10px;
+    margin-bottom:20px;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    #txtBusca{
+        width:100%;
+        max-width: 240px;
+    }
+
+    #slBusca{
+        width:100%;
+        max-width: 255px;
+    }
+
+    #btnBuscar{
+        width:100%;
+        max-width: 255px;
+    }
+}
+
+
+/*dvRodape*/
+#dvRodape{
+    background-color: #B3E5FC;
+    border-top: 5px solid #BDBDBD;
+    padding: 10px;
+    text-align: center;
+}
+
+/*Categoria*/
+.panel{
+    width: 100%;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.imgGridCategoria {
+    text-align: center;
+}
+
+/*CATEGORIA*/
+.conteudoGridCategoria a{
+    color: #111;
+    text-decoration: none;
+}
+
+.btnAcessar{
+    background-color: #dcecff;
+    padding:5px;
+    color: #111;
+    text-decoration: none;
+    border:1px solid #ccc;
+}
+
+/*Classificado*/
+#sliderImagemClassificado img{
+    width:100%;
+    max-width:700px;
+}
+
+.imgGridCategoria img{
+    max-width: 450px;
+    width:100%;
+    margin-top: 10px;
+}
+
+.conteudoGridCategoria{
+    margin-top: 10px;
+}
+
+.paginacao{
+    width: 100%;
+    text-align: center;
+}
+
+.paginacao ul{
+    list-style: none;
+}
+
+.paginacao ul li{
+    display: inline;
+}
+
+.paginacao ul li a{
+    text-decoration: none;
+    background-color: #607D8B;
+    padding:5px;
+    color: #FFF;
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+.paginacao ul li a:hover, .paginacao ul li a:active {
+    box-shadow: 0 0 5px #0288D1;
+}
+
+#dvImagensClassificadoAutor  ul li{
+    display: inline;
+}
+
+#dvImagensClassificadoAutor img{
+    max-width:200px;
+    width:100%;
+    border: 3px solid #ccc;
+    padding:10px;
+    box-sizing: border-box;
+}
+#dvImagensClassificadoAutor img:hover{
+    border: 3px solid #3399ff;
+}
+
+/*formcontroles*/
+
+.formcontroles input[type=text], .formcontroles input[type=password], .formcontroles select, .formcontroles textarea{
+    width: 100%;
+    padding:5px;
+    outline-color: blue;
+}
+
+.formcontroles textarea{
+    min-height: 75px;
+}
+
+.btn-padrao{
+    padding:5px;
+    background-color: #34ce7a;
+    border:1px solid #0f8746;
+    color: #0b321d;
+    cursor: pointer;
+    float: right;
+}
+
+.btn-padrao:hover{
+    box-shadow: 0 0 5px #111;
+}
+
+@media (max-width: 480px) {
+    .btn-padrao{
+        width:100%;
+    }
+
+}
+
+/*dvModal*/
+#dvModal{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    z-index: 999;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8); 
+    display: none;
+    text-align: center;
+}
+
+#dvModal img{
+    max-width: 800px;
+    width: auto;
+    max-height: 500px;
+    margin-top: 20px;
+    border:5px solid #FFF;
+}
+
+#dvModal button{
+    background-color: #d47c7c;
+    border:none;
+    border-radius: 5px;
+    padding:10px;
+}
+
+/*PAINEL*/
+#dvImagensAnuncioPainel img{
+    max-width:150px;
+    width: 100%;
+    border:2px solid #CCC;
+}
